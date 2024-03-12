@@ -1,0 +1,42 @@
+{
+  "name": "@gietmanic/react-simple-cookie",
+  "version": "0.0.1",
+  "description": "The react-cookie-solution package offers a seamless solution for managing cookies within React applications.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "release": "npm run build && changeset publish"
+  },
+  "keywords": [
+    "React",
+    "Cookie",
+    "Browser",
+    "Session management",
+    "State persistence",
+    "Client-side storage",
+    "Session cookies",
+    "Persistent cookies",
+    "Cookie handling"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gietmanic/react-cookie-solution.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gietmanic/react-cookie-solution/issues"
+  },
+  "author": "Gietmanic - Daniel Gietmann <support@gietmanic.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "tsup": "^8.0.2",
+    "@changesets/cli": "^2.27.1",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
